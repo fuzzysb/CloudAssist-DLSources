@@ -7,7 +7,7 @@
 	
 	Purpose:	Provides Information to provide validated download files.
 					
-    Version: 	2.3.4
+    Version: 	2.3.5
  ==============================================================================================
  .SYNOPSIS
 	Cloud Assist Download Definition File
@@ -16,12 +16,12 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3">
+<Resources version="2.3.5">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" />
 			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/d/msdownload/update/software/crup/2017/10/windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" FileName="windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/11/windows10.0-kb4051033-x64_6e6a9d355d051a231e289a6d7931dd8f979f8d0c.msu" FileName="windows10.0-kb4051033-x64_6e6a9d355d051a231e289a6d7931dd8f979f8d0c.msu" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056890-x64_1d0f5115833be3d736caeba63c97cfa42cae8c47.msu" FileName="windows10.0-kb4056890-x64_1d0f5115833be3d736caeba63c97cfa42cae8c47.msu" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
@@ -31,9 +31,9 @@
 			<Info Name="CurrentSCVVMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" Folder="Hotfix\2016\SCVMM\Console\" FileName="kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" ResultantFileName="kb4041075_AdminConsole_amd64.msp" Hash="48deae531cc324208d0bff1f83da71a78634ce11" />
 			</SCVMM>
 			<SCOM>
-			<Info Name="CurrentSCOMServerUR" Link="http://download.windowsupdate.com/c/msdownload/update/software/uprl/2017/05/kb4016126-amd64-server_3bf55f16f12fc90c5b0910266422ccc952357c26.cab" Folder="Hotfix\2016\SCOM\Server\" FileName="kb4016126-amd64-server_3bf55f16f12fc90c5b0910266422ccc952357c26.cab" ResultantFileName="KB4016126-AMD64-Server.msp" Hash="4dd2c280677618e258e9e5b5892197e22a5dba37"  />
-			<Info Name="CurrentSCOMConsoleUR" Link="http://download.windowsupdate.com/c/msdownload/update/software/uprl/2017/05/kb4016126-amd64-enu-console_6f54e2b27feea293ff7648c667f20c54c829ca6a.cab" Folder="Hotfix\2016\SCOM\Console\" FileName="kb4016126-amd64-enu-console_6f54e2b27feea293ff7648c667f20c54c829ca6a.cab" ResultantFileName="KB4016126-AMD64-ENU-Console.msp" Hash="f8e44a292551cfce1127f33d29966f29d9faeece" />
-			<Info Name="CurrentSCOMAgentUR" Link="http://download.windowsupdate.com/c/msdownload/update/software/uprl/2017/05/kb4016126-amd64-agent_6de89795fda47fb858de4a8f6dd8a8fe58581b8e.cab" Folder="Hotfix\2016\SCOM\Agent\" FileName="kb4016126-amd64-agent_6de89795fda47fb858de4a8f6dd8a8fe58581b8e.cab" ResultantFileName="KB4016126-AMD64-Agent.msp" Hash="1a83cfbc93f7394829c8e43941a803574362cedf"  />
+			<Info Name="CurrentSCOMServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" Folder="Hotfix\2016\SCOM\Server\" FileName="kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" ResultantFileName="KB4024941-AMD64-Server.msp" Hash="f4ec22c13169552ea5e624379f09616af6d6c7ab"  />
+			<Info Name="CurrentSCOMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" Folder="Hotfix\2016\SCOM\Console\" FileName="kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" ResultantFileName="KB4024941-AMD64-ENU-Console.msp" Hash="d8b4b748c7b47d3122f8386a5488b2f00394cbbb" />
+			<Info Name="CurrentSCOMAgentUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" Folder="Hotfix\2016\SCOM\Agent\" FileName="kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" ResultantFileName="KB4024941-AMD64-Agent.msp" Hash="1a83cfbc93f7394829c8e43941a803574362cedf"  />
 			</SCOM>
 			<SCORCH>
 				<SPF>
