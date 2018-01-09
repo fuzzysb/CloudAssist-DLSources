@@ -31,9 +31,9 @@
 			<Info Name="CurrentSCVVMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" Folder="Hotfix\2016\SCVMM\Console\" FileName="kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" ResultantFileName="kb4041075_AdminConsole_amd64.msp" Hash="48deae531cc324208d0bff1f83da71a78634ce11" />
 			</SCVMM>
 			<SCOM>
-			<Info Name="CurrentSCOMServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" Folder="Hotfix\2016\SCOM\Server\" FileName="kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" ResultantFileName="KB4024941-AMD64-Server.msp" Hash="f4ec22c13169552ea5e624379f09616af6d6c7ab"  />
-			<Info Name="CurrentSCOMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" Folder="Hotfix\2016\SCOM\Console\" FileName="kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" ResultantFileName="KB4024941-AMD64-ENU-Console.msp" Hash="d8b4b748c7b47d3122f8386a5488b2f00394cbbb" />
-			<Info Name="CurrentSCOMAgentUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" Folder="Hotfix\2016\SCOM\Agent\" FileName="kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" ResultantFileName="KB4024941-AMD64-Agent.msp" Hash="1a83cfbc93f7394829c8e43941a803574362cedf"  />
+			<Info Name="CurrentSCOMServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" Folder="Hotfix\2016\SCOM\Server\" FileName="kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" ResultantFileName="KB4024941-AMD64-Server.msp" Hash="8e0ea26b7ba30478e5c7b9633c9e92eb0067b432"  />
+			<Info Name="CurrentSCOMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" Folder="Hotfix\2016\SCOM\Console\" FileName="kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" ResultantFileName="KB4024941-AMD64-ENU-Console.msp" Hash="70d3f789fb79fff9302cae38a06584cf95c523b7" />
+			<Info Name="CurrentSCOMAgentUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" Folder="Hotfix\2016\SCOM\Agent\" FileName="kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" ResultantFileName="KB4024941-AMD64-Agent.msp" Hash="177cb318d6a75f913d8483bdfef87af581b683d2"  />
 			</SCOM>
 			<SCORCH>
 				<SPF>
@@ -68,7 +68,7 @@
 		<Dell>
 			<x64>
 				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" />
-				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484271M/1/Drivers-for-OS-Deployment_Application_0WY3G_WN64_17.08.12_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_0WY3G_WN64_17.08.12_A00.EXE" Hash="27616625a4b5a7cc9d9adf0db36ac6aeb5d10e82" DriverPackNo="2" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04615832M/1/Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" />
 			</x64>
 		</Dell>
   	</OfflineDriversSources>
