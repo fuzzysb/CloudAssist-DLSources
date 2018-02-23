@@ -46,8 +46,8 @@
 	</UtilsSources>
 	<OnlinePayloads>
 		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="fceadf76067d1d5063da66135bc3d5b866ded683" Vendor="Mellanox" Model="Connect-x4" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="fceadf76067d1d5063da66135bc3d5b866ded683" Vendor="Mellanox" Model="Connect-x5" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" />
 		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" />
 		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-CR" />
 		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-LL-CR" />
