@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ==============================================================================================
+	Copyright (c) SCOM Unity Ltd
+		
+	File:		Install Download Sources
+	
+	Purpose:	Provides Information to provide validated download files.
+					
+    Version: 	2.3.7
+ ==============================================================================================
+ .SYNOPSIS
+	Cloud Assist Download Definition File
+  
+ .DESCRIPTION
+	This xml file controls the file downloads needed for the Cloud Assist Install
+ ==============================================================================================
+-->
+<Resources version="2.3.7" DLVersion = "1">
+	<HotfixSources>
+		<Srv2016>
+			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
+			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/d/msdownload/update/software/crup/2017/10/windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" FileName="windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" UpdatedinDLVersion="1" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/03/windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" FileName="windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" UpdatedinDLVersion="1" />
+		</Srv2016>
+	</HotfixSources>
+	<SCURSources>
+		<SC2016>
+			<SCVMM>
+			</SCVMM>
+			<SCOM>
+			</SCOM>
+			<SCORCH>
+				<SPF>
+				</SPF>
+				<SMA>
+				</SMA>
+			</SCORCH>
+		</SC2016>
+	</SCURSources>
+	<WAPSources>
+	</WAPSources>	
+	<UtilsSources>
+		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" UpdatedinDLVersion="1" />
+		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="eef6bc9974b28ab4cf6213cb3444b7151b7cfc12" UpdatedinDLVersion="1" />
+	</UtilsSources>
+	<OnlinePayloads>
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-CR" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-LL-CR" UpdatedinDLVersion="1" />
+	</OnlinePayloads>
+	<OfflineDriversSources>
+		<Dell>
+			<x64>
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" UpdatedinDLVersion="1" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04615832M/1/Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" UpdatedinDLVersion="1" />
+			</x64>
+		</Dell>
+  	</OfflineDriversSources>
+	<SupportedServerModels>
+		<Dell>
+			<Info Name="R630" DriverPackNo="1" />
+			<Info Name="R730" DriverPackNo="1"/>
+			<Info Name="R730xd" DriverPackNo="1" />
+			<Info Name="R640" DriverPackNo="2" />
+			<Info Name="R740xd" DriverPackNo="2" />
+		</Dell>
+	</SupportedServerModels>
+</Resources>
