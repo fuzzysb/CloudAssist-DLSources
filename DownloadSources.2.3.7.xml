@@ -16,67 +16,47 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3.7" DLVersion = "3">
+<Resources version="2.3.7" DLVersion = "2">
 	<HotfixSources>
 		<Srv2016>
-			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="3" />
-			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/d/msdownload/update/software/crup/2017/10/windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" FileName="windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" UpdatedinDLVersion="3" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/03/windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" FileName="windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" UpdatedinDLVersion="3" />
+			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
+			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/d/msdownload/update/software/crup/2017/10/windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" FileName="windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" UpdatedinDLVersion="1" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/03/windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" FileName="windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" UpdatedinDLVersion="2" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
 		<SC2016>
 			<SCVMM>
-			<Info Name="CurrentSCVVMServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/kb4041074_vmmserver_amd64_489efcd1e1a7ca899ee124429ac14b62dbcc5523.cab" Folder="Hotfix\2016\SCVMM\Server\" FileName="kb4041074_vmmserver_amd64_489efcd1e1a7ca899ee124429ac14b62dbcc5523.cab" ResultantFileName="kb4041074_vmmserver_amd64.msp" Hash="eae9633a2776614488978ec8b0cbe907b251e269" UpdatedinDLVersion="3" />
-			<Info Name="CurrentSCVVMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" Folder="Hotfix\2016\SCVMM\Console\" FileName="kb4041075_adminconsole_amd64_fa30a090c7b782ece4d4a96d478b45a5e50856aa.cab" ResultantFileName="kb4041075_AdminConsole_amd64.msp" Hash="48deae531cc324208d0bff1f83da71a78634ce11" UpdatedinDLVersion="3" />
 			</SCVMM>
 			<SCOM>
-			<Info Name="CurrentSCOMServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" Folder="Hotfix\2016\SCOM\Server\" FileName="kb4024941-amd64-server_aa3a0e186f4472c985f28bbcd720ca4811e81c0a.cab" ResultantFileName="KB4024941-AMD64-Server.msp" Hash="8e0ea26b7ba30478e5c7b9633c9e92eb0067b432" UpdatedinDLVersion="3"  />
-			<Info Name="CurrentSCOMConsoleUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" Folder="Hotfix\2016\SCOM\Console\" FileName="kb4024941-amd64-enu-console_d8b4b748c7b47d3122f8386a5488b2f00394cbbb.cab" ResultantFileName="KB4024941-AMD64-ENU-Console.msp" Hash="70d3f789fb79fff9302cae38a06584cf95c523b7" UpdatedinDLVersion="3" />
-			<Info Name="CurrentSCOMAgentUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/10/kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" Folder="Hotfix\2016\SCOM\Agent\" FileName="kb4024941-amd64-agent_f4ec22c13169552ea5e624379f09616af6d6c7ab.cab" ResultantFileName="KB4024941-AMD64-Agent.msp" Hash="177cb318d6a75f913d8483bdfef87af581b683d2" UpdatedinDLVersion="3"  />
 			</SCOM>
 			<SCORCH>
 				<SPF>
-					<Info Name="CurrentSCORCHSPFServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2017/01/kb3209598_microsoft.systemcenter.foundation.setup_x64_b7f98136519bfd8430bf2c4f2ac6c63345689fe0.cab" Folder="Hotfix\2016\SCORCH\SPFUR\" FileName="kb3209598_microsoft.systemcenter.foundation.setup_x64_b7f98136519bfd8430bf2c4f2ac6c63345689fe0.cab" ResultantFileName="kb3209598_Microsoft.SystemCenter.Foundation.Setup_x64.msp" Hash="78af48e6fb825b5bd56c97222b3c41dfbfcaa1aa" UpdatedinDLVersion="3" />
 				</SPF>
 				<SMA>
-					<Info Name="CurrentSCORCHSSMARBWSvcServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2016/10/kb3190604_workerinstaller_x64_9226a428ad5d29a8e356df3440d2ddbcc4bcfb39.cab" Folder="Hotfix\2016\SCORCH\SMAUR\RBWSvc\" FileName="kb3190604_workerinstaller_x64_9226a428ad5d29a8e356df3440d2ddbcc4bcfb39.cab" ResultantFileName="kb3190604_WorkerInstaller_x64.msp" Hash="f1f2ca438f2a495f1f461b801f456c387e402e81" UpdatedinDLVersion="3" />
-					<Info Name="CurrentSCORCHSMAWebSvcServerUR" Link="http://download.windowsupdate.com/d/msdownload/update/software/uprl/2016/10/kb3190604_webserviceinstaller_x64_c747c141af30a0557a2da80653d905d458f3e9c2.cab" Folder="Hotfix\2016\SCORCH\SMAUR\WebSvc\" FileName="kb3190604_webserviceinstaller_x64_c747c141af30a0557a2da80653d905d458f3e9c2.cab" ResultantFileName="kb3190604_WebServiceInstaller_x64.msp" Hash="84b330fba30f4cc6517104784db5f5b668fa4a5d" UpdatedinDLVersion="3" />
 				</SMA>
 			</SCORCH>
 		</SC2016>
 	</SCURSources>
 	<WAPSources>
-		<Info Name="AdminAPI" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-adminapi_fcd48b8f9ff27f2feccba26bbe64eda3fcfdf90b.cab" Folder="WAP\AdminAPI\" FileName="mgmtsvc-adminapi_fcd48b8f9ff27f2feccba26bbe64eda3fcfdf90b.cab" ResultantFileName="MgmtSvc-AdminAPI.msi" Hash="953b6eb52ff6c49ed7c3d4ab1781546e8e189e6c" UpdatedinDLVersion="3" />
-		<Info Name="AdminAuthSite" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-windowsauthsite_6c1fca35934593dc30002df4747c4af4340ad378.cab" Folder="WAP\AdminAuthSite\" FileName="mgmtsvc-windowsauthsite_6c1fca35934593dc30002df4747c4af4340ad378.cab" ResultantFileName="MgmtSvc-WindowsAuthSite.msi" Hash="4712d732b53a027d5e84d2fc87619eb42e208b92" UpdatedinDLVersion="3" />
-		<Info Name="AdminSite" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-adminsite_0048a9568286838fe2e3f713dfa22b6347c4a2de.cab" Folder="WAP\AdminSite\" FileName="mgmtsvc-adminsite_0048a9568286838fe2e3f713dfa22b6347c4a2de.cab" ResultantFileName="MgmtSvc-AdminSite.msi" Hash="0a7d632160c5085b9c43a5b8b31137bcf012782e" UpdatedinDLVersion="3" />
-		<Info Name="ConfigurationSite" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-configsite_930f1c2ebb00d9420e933fc0bdad8ee2c335632d.cab" Folder="WAP\ConfigurationSite\" FileName="mgmtsvc-configsite_930f1c2ebb00d9420e933fc0bdad8ee2c335632d.cab" ResultantFileName="MgmtSvc-ConfigSite.msi" Hash="c381c2d1c641eae7b6c2235c4a92cf9d62befd14" UpdatedinDLVersion="3" />
-		<Info Name="Monitoring" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-monitoring_7f72d7fdd0f8c86f5fcdc60950f6010be4d5071a.cab" Folder="WAP\Monitoring\" FileName="mgmtsvc-monitoring_7f72d7fdd0f8c86f5fcdc60950f6010be4d5071a.cab" ResultantFileName="MgmtSvc-Monitoring.msi" Hash="5d96dab0afcf9c543f9dbde69c60bbd81985be51" UpdatedinDLVersion="3" />
-		<Info Name="PowerShellAPI" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-powershellapi_5dae33543c4608d6d775798edc8b309644387f1e.cab" Folder="WAP\PowerShellAPI\" FileName="mgmtsvc-powershellapi_5dae33543c4608d6d775798edc8b309644387f1e.cab" ResultantFileName="MgmtSvc-PowerShellAPI.msi" Hash="1dd551616f123eb14202494fa1cb268dfdf66604" UpdatedinDLVersion="3" />
-		<Info Name="TenantAPI" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-tenantapi_f741c794c9e5e2578792b6efc118f6b1dfa3caec.cab" Folder="WAP\TenantAPI\" FileName="mgmtsvc-tenantapi_f741c794c9e5e2578792b6efc118f6b1dfa3caec.cab" ResultantFileName="MgmtSvc-TenantAPI.msi" Hash="f7e598a144e8e96505e40013096f8f5fc2507432" UpdatedinDLVersion="3" />
-		<Info Name="TenantAuthSite" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/mgmtsvc-authsite_df530630f3f18d0c95a52528166acc3714c47e73.cab" Folder="WAP\TenantAuthSite\" FileName="mgmtsvc-authsite_df530630f3f18d0c95a52528166acc3714c47e73.cab" ResultantFileName="MgmtSvc-AuthSite.msi" Hash="a1b481244a41b33ff68b0de360354877e4f7b5ed" UpdatedinDLVersion="3" />
-		<Info Name="TenantPublicAPI" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2017/10/mgmtsvc-tenantpublicapi_2a54ebab189cc06fe28e4bbd8331bf79d799ab11.cab" Folder="WAP\TenantPublicAPI\" FileName="mgmtsvc-tenantpublicapi_2a54ebab189cc06fe28e4bbd8331bf79d799ab11.cab" ResultantFileName="MgmtSvc-TenantPublicAPI.msi" Hash="4c9c0a3ea659b57768c9a584d5e5dce13ca04d0e" UpdatedinDLVersion="3" />
-		<Info Name="TenantSite" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-tenantsite_fb36087d454a8535c5b2a41a5022fe7c7437ee2b.cab" Folder="WAP\TenantSite\" FileName="mgmtsvc-tenantsite_fb36087d454a8535c5b2a41a5022fe7c7437ee2b.cab" ResultantFileName="MgmtSvc-TenantSite.msi" Hash="732496faabddea7c5c4cb2d6c21b9689b8e1ce4d" UpdatedinDLVersion="3" />
-		<Info Name="Usage" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-usage_a27681c77dec95737b8f0de0efb70d0a22707163.cab" Folder="WAP\Usage\" FileName="mgmtsvc-usage_a27681c77dec95737b8f0de0efb70d0a22707163.cab" ResultantFileName="MgmtSvc-Usage.msi" Hash="5a4334b3cfbfc9490acb7f110eb2417534dffa29" UpdatedinDLVersion="3" />
-		<Info Name="WebAppGallery" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/10/mgmtsvc-webappgallery_51e689ea304b820490b7be1ba3604c974ffc6957.cab" Folder="WAP\WebAppGallery\" FileName="mgmtsvc-webappgallery_51e689ea304b820490b7be1ba3604c974ffc6957.cab" ResultantFileName="MgmtSvc-WebAppGallery.msi" Hash="1e49f44a661b435f8a5342120df1738676448e39" UpdatedinDLVersion="3" />
-	</WAPSources>		
+	</WAPSources>	
 	<UtilsSources>
-		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" UpdatedinDLVersion="3" />
-		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="eef6bc9974b28ab4cf6213cb3444b7151b7cfc12" UpdatedinDLVersion="3" />
+		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" UpdatedinDLVersion="1" />
+		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="eef6bc9974b28ab4cf6213cb3444b7151b7cfc12" UpdatedinDLVersion="1" />
 	</UtilsSources>
 	<OnlinePayloads>
-		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="3" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="3" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" UpdatedinDLVersion="3" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="3" />
-		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-CR" UpdatedinDLVersion="3" />
-		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-LL-CR" UpdatedinDLVersion="3" />
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-CR" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-LL-CR" UpdatedinDLVersion="1" />
 	</OnlinePayloads>
 	<OfflineDriversSources>
 		<Dell>
 			<x64>
-				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" UpdatedinDLVersion="3" />
-				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04615832M/1/Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" UpdatedinDLVersion="3" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" UpdatedinDLVersion="1" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04615832M/1/Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" UpdatedinDLVersion="1" />
 			</x64>
 		</Dell>
   	</OfflineDriversSources>
