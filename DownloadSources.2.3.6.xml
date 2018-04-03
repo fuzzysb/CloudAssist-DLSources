@@ -42,7 +42,7 @@
 	</WAPSources>	
 	<UtilsSources>
 		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" />
-		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="eef6bc9974b28ab4cf6213cb3444b7151b7cfc12" />
+		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="DAAB2D50970EA9CDAEDF4D83AC41461AADF22522" />
 	</UtilsSources>
 	<OnlinePayloads>
 		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" />
