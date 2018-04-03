@@ -21,7 +21,7 @@
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" />
 			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/d/msdownload/update/software/crup/2017/10/windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" FileName="windows10.0-kb4049065-x64_f92abbe03d011154d52cf13be7fb60e2c6feb35b.msu" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/02/windows10.0-kb4074590-x64_44a8151ce3f68ca2ca8c30ef30e1d0626300d1ea.msu" FileName="windows10.0-kb4074590-x64_44a8151ce3f68ca2ca8c30ef30e1d0626300d1ea.msu" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/03/windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" FileName="windows10.0-kb4088787-x64_76e9d6684e0a004f51ea7373e4ea6217193c1b5e.msu" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
