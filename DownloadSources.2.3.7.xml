@@ -16,13 +16,12 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3.7" DLVersion = "8">
+<Resources version="2.3.7" DLVersion = "9">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
-			<Info Name="CurrentWindowsHF1" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="6" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/05/windows10.0-kb4103723-x64_2adf2ea2d09b3052d241c40ba55e89741121e07e.msu" FileName="windows10.0-kb4103723-x64_2adf2ea2d09b3052d241c40ba55e89741121e07e.msu" UpdatedinDLVersion="5" />
-			<Info Name="CurrentWindowsSSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/05/windows10.0-kb4103720-x64_c1fb7676d38fffae5c28b9216220c1f033ce26ac.msu" FileName="windows10.0-kb4103720-x64_c1fb7676d38fffae5c28b9216220c1f033ce26ac.msu" UpdatedinDLVersion="6" />
+			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="9" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" FileName="windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" UpdatedinDLVersion="9" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
