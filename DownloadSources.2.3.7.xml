@@ -16,7 +16,7 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3.7" DLVersion = "6">
+<Resources version="2.3.7" DLVersion = "8">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
