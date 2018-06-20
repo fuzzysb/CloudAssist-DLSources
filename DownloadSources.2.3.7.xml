@@ -16,13 +16,12 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3.7" DLVersion = "8">
+<Resources version="2.3.7" DLVersion = "10">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
-			<Info Name="CurrentWindowsHF1" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="6" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/05/windows10.0-kb4103723-x64_2adf2ea2d09b3052d241c40ba55e89741121e07e.msu" FileName="windows10.0-kb4103723-x64_2adf2ea2d09b3052d241c40ba55e89741121e07e.msu" UpdatedinDLVersion="5" />
-			<Info Name="CurrentWindowsSSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/05/windows10.0-kb4103720-x64_c1fb7676d38fffae5c28b9216220c1f033ce26ac.msu" FileName="windows10.0-kb4103720-x64_c1fb7676d38fffae5c28b9216220c1f033ce26ac.msu" UpdatedinDLVersion="6" />
+			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="9" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" FileName="windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" UpdatedinDLVersion="9" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
@@ -46,7 +45,7 @@
 		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="DAAB2D50970EA9CDAEDF4D83AC41461AADF22522" UpdatedinDLVersion="2" />
 	</UtilsSources>
 	<OnlinePayloads>
-		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04612432M/1/Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" FileName="Network_Driver_R1N0G_WN64_34.02.01_A00-00.EXE" Hash="3fb349048aed223eecfd3d82ed5410fb5d6125d1" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04926152M/2/Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" FileName="Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" Hash="F11979975A9835CA2BAD94430F639C0B3B094B1D" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="10" />
 		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="1" />
 		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" UpdatedinDLVersion="1" />
 		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
