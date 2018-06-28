@@ -56,7 +56,7 @@
 		<Dell>
 			<x64>
 				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" UpdatedinDLVersion="1" />
-				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04936438M/1/Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" UpdatedinDLVersion="11" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04936438M/1/Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" Hash="9BA9CB26FC62BA365175A48656D313131DA448DD" DriverPackNo="2" UpdatedinDLVersion="11" />
 			</x64>
 		</Dell>
   	</OfflineDriversSources>
