@@ -16,12 +16,12 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.3.7" DLVersion = "10">
+<Resources version="2.3.7" DLVersion = "11">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="CurrentDotNetU" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" UpdatedinDLVersion="1" />
 			<Info Name="CurrentWindowsCU" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="9" />
-			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/06/windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" FileName="windows10.0-kb4284880-x64_34d88e02608fa8c7db3dda395434d93ba109169c.msu" UpdatedinDLVersion="9" />
+			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/06/windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu" FileName="windows10.0-kb4284833-x64_eb8d1b6306fe77caefec2109844be73ffc7587f6.msu" UpdatedinDLVersion="11" />
 		</Srv2016>
 	</HotfixSources>
 	<SCURSources>
@@ -56,7 +56,7 @@
 		<Dell>
 			<x64>
 				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04484302M/1/Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_VMVWM_WN64_17.08.10_A00.EXE" Hash="64b42282201ab96b754a183482eb653c9daca2ab" DriverPackNo="1" UpdatedinDLVersion="1" />
-				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04615832M/1/Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_P6KYW_WN64_17.10.13_A00.EXE" Hash="1a322a64c93a2205cf56c2a0b44f9ef7cf2ce40f" DriverPackNo="2" UpdatedinDLVersion="1" />
+				<Info Name="DriverPack" Link="https://downloads.dell.com/FOLDER04936438M/1/Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" FileName="Drivers-for-OS-Deployment_Application_RHM02_WN64_18.04.07_A00.EXE" Hash="9BA9CB26FC62BA365175A48656D313131DA448DD" DriverPackNo="2" UpdatedinDLVersion="11" />
 			</x64>
 		</Dell>
   	</OfflineDriversSources>
