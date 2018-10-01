@@ -46,11 +46,7 @@
 	</UtilsSources>
 	<OnlinePayloads>
 		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04926152M/2/Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" FileName="Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" Hash="F11979975A9835CA2BAD94430F639C0B3B094B1D" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="1" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_WinOF2-1_70_All_x64.exe" FileName="MLNX_WinOF2-1_70_All_x64.exe" Hash="cda3068bcd250fd5af53697db1a6339d857bce62" Vendor="Mellanox" Model="Connect-x5" UpdatedinDLVersion="1" />
-		<Info Name="OnlinePayload" Link="http://www.mellanox.com/downloads/WinOF/MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" FileName="MLNX_VPI_WinOF-5_35_All_win2016_x64.exe" Hash="db47736ffa21fc0eddab8f8ceef5f19558c15be5" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
-		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-CR" UpdatedinDLVersion="1" />
-		<Info Name="OnlinePayload" Link="https://service.chelsio.com/downloads/Microsoft/Drivers/ChelsioUwire-5.0.0.88/ChelsioUwire-5.0.0.88.exe" FileName="ChelsioUwire-5.0.0.88.exe" Hash="180875e9e1e8cae2f065f8ab5a281c46103f0afb" Vendor="Chelsio" Model="T520-LL-CR" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04916987M/1/Network_Driver_FYF41_WN64_05.35.06.EXE" FileName="Network_Driver_FYF41_WN64_05.35.06.EXE" Hash="ED84A82CEAF1C88C9487291E4E3CC04C4CE8785C" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
 	</OnlinePayloads>
 	<OfflineDriversSources>
 		<Dell>
