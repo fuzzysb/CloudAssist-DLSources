@@ -24,22 +24,6 @@
 			<Info Name="CurrentWindowsSU" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" UpdatedinDLVersion="1" />
 		</Srv2016>
 	</HotfixSources>
-	<SCURSources>
-		<SC2016>
-			<SCVMM>
-			</SCVMM>
-			<SCOM>
-			</SCOM>
-			<SCORCH>
-				<SPF>
-				</SPF>
-				<SMA>
-				</SMA>
-			</SCORCH>
-		</SC2016>
-	</SCURSources>
-	<WAPSources>
-	</WAPSources>	
 	<UtilsSources>
 		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" UpdatedinDLVersion="1" />
 		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="DAAB2D50970EA9CDAEDF4D83AC41461AADF22522" UpdatedinDLVersion="1" />
@@ -48,19 +32,4 @@
 		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04926152M/2/Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" FileName="Network_Driver_V7C0X_WN64_34.04.00_A00-00_01.EXE" Hash="F11979975A9835CA2BAD94430F639C0B3B094B1D" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
 		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04916987M/1/Network_Driver_FYF41_WN64_05.35.06.EXE" FileName="Network_Driver_FYF41_WN64_05.35.06.EXE" Hash="ED84A82CEAF1C88C9487291E4E3CC04C4CE8785C" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
 	</OnlinePayloads>
-	<OfflineDriversSources>
-		<Dell>
-			<x64>
-			</x64>
-		</Dell>
-  	</OfflineDriversSources>
-	<SupportedServerModels>
-		<Dell>
-			<Info Name="R630" DriverPackNo="1" />
-			<Info Name="R730" DriverPackNo="1"/>
-			<Info Name="R730xd" DriverPackNo="1" />
-			<Info Name="R640" DriverPackNo="2" />
-			<Info Name="R740xd" DriverPackNo="2" />
-		</Dell>
-	</SupportedServerModels>
 </Resources>
