@@ -19,10 +19,10 @@
 <Resources version="2.4.0" DLVersion = "1" VersionSuperceded = "False">
 	<HotfixSources>
 		<Srv2016>
-			<Info Name="KB3186568" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu"  InstallType="Offline" UpdatedinDLVersion="1"/>
-			<Info Name="kb4091664" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" FileName="windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" InstallType="Offline" UpdatedinDLVersion="1"/>
-			<Info Name="KB4132216" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" InstallType="Offline" UpdatedinDLVersion="1"/>
-			<Info Name="KB4462928" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/10/windows10.0-kb4462928-x64_c3c3bd7c809ed0a53afab205ccbc229556f384c7.msu" FileName="windows10.0-kb4462928-x64_c3c3bd7c809ed0a53afab205ccbc229556f384c7.msu" InstallType="Offline" UpdatedinDLVersion="1"/>
+			<Info Name="KB3186568" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu"  InstallType="Offline" Order="2" UpdatedinDLVersion="1"/>
+			<Info Name="kb4091664" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" FileName="windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" InstallType="Offline" Order="3" UpdatedinDLVersion="1"/>
+			<Info Name="KB4132216" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" InstallType="Offline" Order="1" UpdatedinDLVersion="1"/>
+			<Info Name="KB4462928" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/10/windows10.0-kb4462928-x64_c3c3bd7c809ed0a53afab205ccbc229556f384c7.msu" FileName="windows10.0-kb4462928-x64_c3c3bd7c809ed0a53afab205ccbc229556f384c7.msu" InstallType="Offline" Order="4" UpdatedinDLVersion="1"/>
 		</Srv2016>
 	</HotfixSources>
 	<UtilsSources>
