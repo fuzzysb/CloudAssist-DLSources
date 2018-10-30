@@ -16,7 +16,7 @@
 	This xml file controls the file downloads needed for the Cloud Assist Install
  ==============================================================================================
 -->
-<Resources version="2.4.0" DLVersion = "1">
+<Resources version="2.4.0" DLVersion = "1" VersionSuperceded = "False">
 	<HotfixSources>
 		<Srv2016>
 			<Info Name="KB3186568" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu"  InstallType="Offline" UpdatedinDLVersion="1"/>
