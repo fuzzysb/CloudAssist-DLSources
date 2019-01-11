@@ -22,8 +22,8 @@
 			<Info Name="KB3186568" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu"  InstallType="Offline" Order="2" UpdatedinDLVersion="1"/>
 			<Info Name="kb4091664" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" FileName="windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu" InstallType="Offline" Order="3" UpdatedinDLVersion="1"/>
 			<Info Name="KB4132216" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" InstallType="Offline" Order="1" UpdatedinDLVersion="1"/>
-			<Info Name="KB4467691" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/10/windows10.0-kb4467691-x64_c1884b8c61fd7837b4a59a3aa7b87707474a8c12.msu" FileName="windows10.0-kb4467691-x64_c1884b8c61fd7837b4a59a3aa7b87707474a8c12.msu" InstallType="Offline" Order="4" UpdatedinDLVersion="1"/>
 			<Info Name="KB4465659" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/11/windows10.0-kb4465659-x64_af8e00c5ba5117880cbc346278c7742a6efa6db1.msu" FileName="windows10.0-kb4465659-x64_af8e00c5ba5117880cbc346278c7742a6efa6db1.msu" InstallType="Offline" Order="5" UpdatedinDLVersion="1"/>
+			<Info Name="KB4480961" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2019/01/windows10.0-kb4480961-x64_ada63f8d66b2c9994e03c3f5bffe56aff77edeb6.msu" FileName="windows10.0-kb4480961-x64_ada63f8d66b2c9994e03c3f5bffe56aff77edeb6.msu" InstallType="Offline" Order="4" UpdatedinDLVersion="1"/>
 		</Srv2016>
 	</HotfixSources>
 	<UtilsSources>
