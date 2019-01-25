@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ==============================================================================================
+	Copyright (c) SCOM Unity Ltd
+		
+	File:		Install Download Sources
+	
+	Purpose:	Provides Information to provide validated download files.
+					
+    Version: 	2.4.2
+ ==============================================================================================
+ .SYNOPSIS
+	Cloud Assist Download Definition File
+  
+ .DESCRIPTION
+	This xml file controls the file downloads needed for the Cloud Assist Install
+ ==============================================================================================
+-->
+<Resources version="2.4.2" DLVersion = "1" VersionSuperceded = "False">
+	<HotfixSources>
+		<Srv2016>
+			<Info Name="KB3186568" Link="http://download.windowsupdate.com/c/msdownload/update/software/ftpk/2017/05/windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu" FileName="windows10.0-kb3186568-x64_086bd10d344a5bb614725135a1589cd784d1e768.msu"  InstallType="Offline" Order="2" UpdatedinDLVersion="1"/>
+			<Info Name="kb4091664" Link="http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/10/windows10.0-kb4091664-v6-x64_cb6f102b635f103e00988750ca129709212506d6.msu" FileName="windows10.0-kb4091664-v6-x64_cb6f102b635f103e00988750ca129709212506d6.msu" InstallType="Offline" Order="3" UpdatedinDLVersion="1"/>
+			<Info Name="KB4132216" Link="http://download.windowsupdate.com/c/msdownload/update/software/crup/2018/05/windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" FileName="windows10.0-kb4132216-x64_9cbeb1024166bdeceff90cd564714e1dcd01296e.msu" InstallType="Offline" Order="1" UpdatedinDLVersion="1"/>
+			<Info Name="KB4465659" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/11/windows10.0-kb4465659-x64_af8e00c5ba5117880cbc346278c7742a6efa6db1.msu" FileName="windows10.0-kb4465659-x64_af8e00c5ba5117880cbc346278c7742a6efa6db1.msu" InstallType="Offline" Order="5" UpdatedinDLVersion="1"/>
+			<Info Name="KB4480961" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2019/01/windows10.0-kb4480961-x64_ada63f8d66b2c9994e03c3f5bffe56aff77edeb6.msu" FileName="windows10.0-kb4480961-x64_ada63f8d66b2c9994e03c3f5bffe56aff77edeb6.msu" InstallType="Offline" Order="4" UpdatedinDLVersion="1"/>
+		</Srv2016>
+		<Srv2019>
+			<Info Name="KB4481031" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2019/01/windows10.0-kb4481031-x64_76c7a0c7628bdaaf318207c526ed5b6aa9e8ef2c.msu" FileName="windows10.0-kb4481031-x64_76c7a0c7628bdaaf318207c526ed5b6aa9e8ef2c.msu"  InstallType="Offline" Order="1" UpdatedinDLVersion="1"/>
+			<Info Name="KB4480056" Link="http://download.windowsupdate.com/d/msdownload/update/software/secu/2019/01/windows10.0-kb4480056-x64_03a6d426797796ba712e4dbd05b56fd9cbfc2e24.msu" FileName="windows10.0-kb4480056-x64_03a6d426797796ba712e4dbd05b56fd9cbfc2e24.msu"  InstallType="Offline" Order="2" UpdatedinDLVersion="1"/>
+			<Info Name="KB4476976" Link="http://download.windowsupdate.com/c/msdownload/update/software/updt/2019/01/windows10.0-kb4476976-x64_a9c241844c041cb8dbcf28b5635eecb1a57e028a.msu" FileName="windows10.0-kb4476976-x64_a9c241844c041cb8dbcf28b5635eecb1a57e028a.msu"  InstallType="Offline" Order="3" UpdatedinDLVersion="1"/>
+		</Srv2019>
+	</HotfixSources>
+	<UtilsSources>
+		<Info Name="SQLCmdLNUtils" Link="https://download.microsoft.com/download/C/8/E/C8ECE442-C29C-4EE4-BD73-872C03D9EB84/ENG_1033/x64/SqlCmdLnUtils.msi" Folder="Utils\SQLCmdLNUtils\" FileName="SqlCmdLnUtils.msi" Hash="437105ab2976a8b9175ba0816cf3bc7da44ff9c6" UpdatedinDLVersion="1" />
+		<Info Name="SqlODBCDriver" Link="https://download.microsoft.com/download/D/5/E/D5EEF288-A277-45C8-855B-8E2CB7E25B96/x64/msodbcsql.msi" Folder="Utils\SqlODBCDriver\" FileName="msodbcsql.msi" Hash="DAAB2D50970EA9CDAEDF4D83AC41461AADF22522" UpdatedinDLVersion="1" />
+	</UtilsSources>
+	<OnlinePayloads>
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER05064083M/1/Network_Driver_9YM64_WN64_34.07.00_A00-00.EXE" FileName="Network_Driver_9YM64_WN64_34.07.00_A00-00.EXE" Hash="A9ED869838D8A03FE6D847B3C067327A4ABD9CE0" Vendor="Qlogic" Model="QL41262HLCU" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04916987M/1/Network_Driver_FYF41_WN64_05.35.06.EXE" FileName="Network_Driver_FYF41_WN64_05.35.06.EXE" Hash="ED84A82CEAF1C88C9487291E4E3CC04C4CE8785C" Vendor="Mellanox" Model="Connect-x3" UpdatedinDLVersion="1" />
+		<Info Name="OnlinePayload" Link="https://downloads.dell.com/FOLDER04916955M/1/Network_Driver_1CCDM_WN64_01.80.06.EXE" FileName="Network_Driver_1CCDM_WN64_01.80.06.EXE" Hash="5B8B6A565BFE1A76F449B15CE212F699750B92B4" Vendor="Mellanox" Model="Connect-x4" UpdatedinDLVersion="1" />
+	</OnlinePayloads>
+</Resources>
